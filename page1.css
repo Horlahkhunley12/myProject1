@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+.body {
+    background-image: url(Image/jonathan-gallegos-kKa--cav1Fg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+img {
+    width: 50px;
+    margin-top: 0;
+    border-radius: 25px;
+}
+.prof-pic {
+    display: flex;
+} 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h-t {
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.button1 {
+    background-color: rgb(16, 114, 194);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 0;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button2 {
+    color:  rgb(16, 114, 194);
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid  rgb(16, 114, 194);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.button1:hover {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 20px;
+}
+.button1:active {
+    opacity: 0.5;
+}
+.button2:hover {
+    background-color: rgb(16, 114, 194);
+    color: white;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.button2:active {
+    opacity: 0.5;
+}
+.butn {
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 12px;
+
+}
+body {
+    align-items: center;
+}
+.content {
+    margin-top: 100px;
+    margin-left: 50px;
+    animation-delay: 1s;
+}
+.b-t {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-top: 10px;
+    width: 300px;
+}
+.text-1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    animation-delay: 0.5s;
+}
+.text-2 {
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 20px;
+    animation-delay: 1.5s;
+}
+.btn-1 {
+    background-color: rgb(14, 86, 134);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-1:hover {
+    border-top-right-radius: 0;
+}
+.btn-1:active {
+    opacity: 0.5;
+}
+.btn-2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(14, 86, 134);
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-2:hover {
+    background-color:  rgb(14, 86, 134);
+    color: white;
+}
+.btn-2:active {
+    opacity: 0.5;
+}
+.btn12 {
+    margin-top: 70px;
+    animation-delay: 2s;
+}
+.a {
+    color: white;
+    text-decoration: none;
+}
+#anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation:moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
